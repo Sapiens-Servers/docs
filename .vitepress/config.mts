@@ -22,16 +22,18 @@ export default defineConfig({
         text: "Guides",
         items: [
           { text: "Getting Started w/ SteamCMD", link: "/guides/steamcmd" },
+          /*
           {
             text: "Getting started w/ Pterodactyl",
             link: "/guides/pterodactyl",
           },
+          */
         ],
       },
     ],
 
     socialLinks: [
-      { icon: "github", link: "https://github.com/vuejs/vitepress" },
+      { icon: "github", link: "https://github.com/Sapiens-Servers/docs" },
     ],
   },
   base: "/docs",
